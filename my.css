@@ -1,0 +1,21 @@
+.slick-arrow
+{
+    position: absolute;
+    top: calc(50% - 20px);
+    z-index: 1;
+}
+#arrow2{
+    right:0;
+}
+.slick-arrow:hover{
+    cursor: pointer;
+}
+@media only all and (min-width: 1100px){
+    ngx-slick{
+        width: 1100px;
+        margin: auto;
+    }
+}
+slide:focus{
+    outline:aqua;
+}

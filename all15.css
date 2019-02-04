@@ -1,0 +1,614 @@
+/**{
+    transition-duration: 1.5s;
+}*/
+.vcard{
+    display: none;
+}
+#top{
+   position: fixed;
+   background: white;
+   width: 100%;
+   border-bottom: solid 2px green;
+   padding: 0.4em 0 0 0 ;
+   z-index: 2;
+   margin: 0;
+   text-align: center;
+}
+h1{
+  font: bold 2.3em Arial;
+  color: black;
+}
+#logo{
+  width: 12em;
+  display: inline-block;
+  margin-right: 10em;
+}
+#logoImage{
+  width: 12em;
+  padding-right: 3em;
+  vertical-align: bottom;
+}
+#logoText{
+  display: none;
+}
+#logoText2{
+  font: bold 1.1em Arial;
+  color: green;
+  display: inline-block;
+  margin:0;
+  vertical-align:0.4em;
+}
+li a:not(#siteLink), #menuButtonLabel{
+  text-decoration: none;
+  font: bold 0.9em Arial;
+  text-transform: uppercase;
+  color: black;
+}
+#menuLogo{
+    width: 3em;
+    display: none;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0em 3em 0 0;
+  vertical-align: 0.5em;
+}
+li a:not(#siteLink):hover{
+    color: green;
+}
+ul, menu{
+  margin: 0;
+  display: inline-block;
+  padding: 0 0 0.2em 0;
+}
+[type=radio], [type=checkbox]{
+  display: none;
+}
+#menuButtonLabel{
+  display: none;
+  cursor: pointer; 
+}
+#menuButtonLabel p{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  color: black;
+}
+#menuBlock1, #menuBlock2{
+    display: inline-block;
+}
+#banner{
+  padding-top: 2em;
+  background: url('images/mainPicture.jpg') 50% 50% repeat;
+  overflow: visible;
+  text-align: center;
+}
+#bannerColor{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10.2em 0 10.2em 0;
+}
+#banner p{
+  color: white;
+  font: bold 6em Arial;
+  text-transform: uppercase;
+}
+#banner #bannerText1{
+  font-size: 6em;
+  margin: 0;
+}
+#banner #bannerText2{
+  font-weight: normal;
+  font-size: 2.3em;
+  margin: 1em 0 1em 0;
+}
+#banner #bannerText3{
+  margin:0; 
+  font-size: 1em;
+  margin-bottom: 1.5em; 
+  letter-spacing: -0.1em;
+}
+#banner #bannerText4, #banner #bannerText5{
+  font-size: 3.8em;
+  margin: 0;
+}
+#whatWeDoDiv, #howWeDoItDiv, #priceDiv, #contactsDiv{
+  position: relative;
+}
+div a[name]{
+  position: absolute;
+  top: -2em;
+  left: 0em;
+}
+#description1{
+  display: inline-block; 
+  width: 10em;
+  font: bold 1.2em Arial;
+  margin:0 2em 0 0em;
+  vertical-align: top;
+  text-align: left;
+  color: black;
+}
+#description2{
+  display: inline-block;
+  width: 35em;
+  font: 1.1em "proxima-nova",sans-serif;
+  opacity: 0.9;
+  /*font: 1.1em Arial;*/
+  line-height: 1.3em;
+  text-align: left;
+  color: black;
+}
+mark{
+  color: green;
+  background-color: transparent;
+  padding: 0;
+}
+.description{
+  padding: 0 0 0 0;
+  text-align: center;
+  margin: 3.5em 0 3.5em 0;
+}
+.video h2, .video p{
+  padding-left: 7.9em;
+  color: white;
+  margin-top: 0;
+}
+
+.video section{
+  display: inline-block;
+  width: 32em;
+  text-align: left;
+  vertical-align: top;
+  margin-bottom: 2em;
+}
+.video section:nth-of-type(even){
+  margin-left: 2.5em;
+}
+.video1 h2, .video2 h2, .video3 h2, .video4 h2, .video5 h2{
+  margin: 0 0 0.4em 0;
+}
+.video h1{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2em 0 2em 0;
+  color: white;
+}
+.video h2{
+  font: bold 1.4em Arial;
+  text-transform: uppercase;
+  padding-left: 5.6em;
+}
+.video p{
+  /*font: 1em Arial;*/
+  font: 1em "proxima-nova",sans-serif;
+  line-height: 1.3em;
+}
+.video img{
+  float: left;
+  width: 6.9em;
+}
+.video{
+  background: url('images/mainPicture.jpg') 50% 50% repeat;
+  text-align: center;
+}
+section.video6{
+}
+#videoColor{
+  background-color: rgba(0, 125, 6, 0.9);
+  padding-bottom:2em;
+}
+.services{
+  text-align: center;
+  margin: 3em 0 0 0;
+}
+.services section{
+  display: inline-block;
+  width: 24.2em;
+  text-align: center;
+  vertical-align: top;
+}
+.services section:not(:last-of-type){
+  margin: 0 2em 0 0em;
+}
+.services section p{
+  font: 1em Arial;
+  line-height: 1.3em;
+  text-align: justify;  
+  color: black;
+}
+.services h1{
+  text-transform: uppercase;
+  text-align: center;  
+  color: #007D06;
+  margin-bottom: 1em;
+}
+.services h2{
+  font: bold 1.4em Arial;
+  line-height: 1.3em;  
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+.services img{
+  width: 7.5em;
+}
+.imageWrapper{
+  display:inline-block;
+  width: 7.5em;
+  height: 7.5em;
+  position: relative;
+}
+.serviceImage{
+  display: inline-block;
+  position: absolute;
+  width: 400px; height: 400px; 
+  background-repeat: no-repeat; 
+  background-image: url('images/iconSprite.gif');
+  transform: scale(0.25);
+  top: -10em;
+  left: -10em;
+}
+#cartoonIcon{
+  background-position: 0px 0px; 
+}
+#videoIcon{
+  background-position: -400px 0px; 
+}
+#screencastIcon{
+  background-position: -800px 0px; 
+}
+#languageIcon{
+  background-position: -1200px 0px; 
+}
+#presentationIcon{
+  background-position: -1600px 0px; 
+}
+#promotionIcon{
+  background-position: -2000px 0px; 
+}
+#textIcon{
+  background-position: -2400px 0px; 
+}
+#translateIcon{
+  background-position: -2800px 0px; 
+}
+#photoIcon{
+  background-position: -3200px 0px; 
+}
+
+
+
+#portfolioDiv{
+    background: #f2f2f2;
+    padding: 1em 0 6em 0;
+    margin: 3em 0 0 0;
+}
+#portfolio{
+  text-transform: uppercase;
+  text-align: center;  
+  color: #007D06;
+  margin: 1em 0 1em 0;
+}
+.process{
+  clear: both;
+}
+.process1{
+  display: inline-block;
+  width: 24em;
+  text-align: left;
+  margin-right: 6em;
+}
+.process1, .process2{
+  margin-bottom: 4em;
+}
+.process img{
+  width: 5em;
+  display: inline-block;
+  text-align: left;
+  float: left;
+}
+.process p{
+  margin-left: 0em;
+}
+.process1 p{
+  /*font: 0.9em Arial;*/
+  font: 0.9em "proxima-nova",sans-serif;
+  line-height: 1.3em;  
+  color: black;
+}
+.process1 h2, .process2 h2{
+  font: bold 1.2em Arial;
+  line-height: 1.3em;  
+  text-transform: uppercase;
+  color: black;
+}
+#pickout{
+  border-bottom: solid rgba(128, 128, 128, 0.3) 2px;
+  padding-bottom: 0.6em;
+  padding-left: 5em;
+  margin-top:0;
+  margin-right: 0em;
+  font: bold 1.2em Arial;
+  line-height: 1.3em;  
+  text-transform: uppercase;
+  color: black;
+}
+.process h1{
+  text-transform: uppercase;
+  text-align: center;  
+  color: white;
+  background-color: rgba(0, 125, 6, 0.9);
+  padding: 1em 0 1em 0;
+}
+.wrapProcessH1{
+  background: url('images/mainPicture.jpg') 50% 0% repeat;
+}
+.process2{
+  display: inline-block;
+  width: 24em;
+  vertical-align: top;
+  text-align: left;
+}
+.process2 p{
+  /*font: 0.9em Arial;*/
+  font: 0.9em "proxima-nova",sans-serif;
+  line-height: 1.3em;  
+  color: black;
+}
+.process{
+  /* background: url('images/v-7.jpg') 50% 50% repeat; */
+  background-size: 100% 100%;
+  border-bottom: solid rgba(128, 128, 128, 0.3) 3px;  
+  margin-bottom: 5em;
+}
+.wrap{
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-bottom: 2em;
+}
+.process section, #pickout{
+  text-align: left;
+  margin-bottom: 1.5em;
+}
+.process section h2{
+  margin-bottom: 0em;
+}
+.process section p{
+  margin-top: 0em;
+}
+.processPlusProcess{
+  text-align: center;
+  margin-top: 4em;
+}
+div a[name=priceAName]{
+  top: -5em;
+}
+.priceSection{
+  display: inline-block;
+  vertical-align: top;
+}
+#priceText{
+  display:inline-block;    
+  width: 33em;
+}
+#priceText a{
+  color: green;
+}
+.price p{
+  /*font: 1.04em Arial;*/
+  font: 1.04em "proxima-nova",sans-serif;
+  line-height: 1.3em;
+  text-align: left;  
+  color: black;
+}
+.price h2{
+  font: bold 1.2em Arial;
+  color: black;
+  margin: 0;
+  text-align:left;
+}
+.priceTop h1{
+  text-transform: uppercase;
+  text-align: center;  
+  color: #007D06;
+  margin-bottom: 0em; 
+}
+.priceTop{
+  margin: 5em 0 3.5em 0;
+}
+.price img{
+  width: 12em;
+  display: inline-block;
+  margin-right: 2em;
+  vertical-align: top;
+}
+.price{
+  margin-bottom: 5em;
+  text-align: center;
+}
+.aSocIcons:hover{
+  text-decoration: none;
+}
+a:-webkit-any-link{
+  text-decoration: none;
+}
+.socIcons{
+  margin-top:3em;
+  display: inline-block;
+  background-image: url('images/socIcons1.png');
+  background-repeat: no-repeat; 
+  transform: scale(0.35);
+}
+#socIcons{
+  word-spacing: -1em;
+}
+#ytIcon{
+  background-position: -38px -39px; 
+  width: 100px; height: 100px; 
+}
+#vkIcon{
+  background-position: -278px -39px; 
+  width: 120px; height: 100px; 
+}
+#fbIcon{
+  background-position: -555px -33px; 
+  width: 75px; height: 117px; 
+  vertical-align: -0.5em;
+}
+#instaIcon{
+  background-position: -791px -39px; 
+  width: 100px; height: 100px; 
+}
+
+#downloadIcon{
+  width: 1.3em;
+  vertical-align: -0.1em;
+}
+div a[name=ContactsAName]{
+  top: 1em;
+}
+.contacts{
+  text-align: center;
+  margin-bottom: 6em;
+}
+.contacts h1{
+  text-transform: uppercase;
+  text-align: center; 
+  border-top: solid rgba(128, 128, 128, 0.3) 3px;  
+  margin: 0;
+  padding: 2em 0 1em 0; 
+}
+.contactText, .formDiv{
+  display: inline-block;
+  width: 24em;
+  vertical-align: top;
+}
+.formDiv{
+    position: relative;
+    display: inline-block;
+}
+.contactText{
+  /*font: 1.1em Arial;*/
+  font: 1.1em "proxima-nova",sans-serif;
+  line-height: 1.3em;
+  text-align: center;  
+  margin-right: 4em;
+  color: black;
+}
+input, textarea{
+  float: left;
+  width: 100%;
+  margin: 0.8em 0 0.8em 0;
+  padding-left: 1em;
+  font: italic 0.8em Arial;
+  color: black;
+}
+input{
+  height: 3.45em;
+}
+.inputDiv{
+    position: relative;
+}
+.message{
+    position: absolute;
+    top: -1.3em;
+    right: -1em;
+}
+#emailResult{
+    top: 2.1em;
+}
+textarea{
+  padding-top: 1em;
+  margin-bottom:1.8em;
+}
+.phone{
+  font: bold 1.55em Arial;
+  margin: 1em 0 1em 0;
+  color: black;
+}
+#email{
+  font: bold 1.55em Arial;
+  margin: 1em 0 0.2em 0;
+  color: black;
+  
+}
+[type=submit]{
+  display: none;
+}
+#button{
+  text-transform: uppercase;
+  position: absolute;
+  left:0;
+  top:21.6em;
+  background-color: rgba(0, 125, 6, 0.9);
+  padding: 1.1em 3em 1.1em 3em;
+  font: 0.9em Arial;
+  color: white;
+  border-radius: 2em;
+  transition: transform 0.9s;
+  text-align: left;
+}
+#button:hover{
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.9);
+}
+#button:active{
+    /* font: 0.88em Arial; */
+    transform: scale(0.95);
+}
+.message p{
+    border-style: solid;
+    border-width: 6px 24.5px 13.5px 6.5px;
+    border-image: url(images/arrowMessage.svg) 12 49 27 13 fill stretch;
+    color: white;
+    font: 1.06em Arial;
+    padding-left: 18px;
+    margin: 0;
+}
+#result{
+    position: absolute;
+    bottom: 0.6em;
+    right: -1em;
+    font: 0.9em Arial;
+    width: 15em;
+    color: navy;
+    background-color: skyblue;
+}
+#textAreaResult{
+    position: absolute;
+    top: 9em;
+}
+text{
+   font: 0.15em Arial;
+   /*font: 1.1em "proxima-nova",sans-serif;*/
+   color: black;
+}
+footer{
+   /*font: 1.1em "proxima-nova",sans-serif;*/
+   font: 0.6em Arial;
+   background-color: black;
+   color: grey;
+   position: relative;
+   text-align: center;
+}
+footer *{
+   display: inline-block;
+}
+#footLogo{
+   width: 5em;
+   margin: 2em auto 2em auto;
+}
+#adress{
+   vertical-align: 3em;
+   text-align: left;
+   position: absolute;
+   top: 2em;
+   left: 10%;
+}
+#copyright{
+   font: 1.38em Arial;
+   vertical-align: 3em;
+   position: absolute;
+   top: 2em;
+   right: 10%;
+}
