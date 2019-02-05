@@ -17,8 +17,8 @@
 }
 
 h1 {
-  font: bold 2.3em "Roboto", sans-serif;
-  color: black;
+  font: bold 2.3em sans-serif;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 #logo {
@@ -38,7 +38,7 @@ h1 {
 }
 
 #logoText2 {
-  font: bold 1.1em "Roboto", sans-serif;
+  font: bold 1.1em sans-serif;
   color: green;
   display: inline-block;
   margin: 0;
@@ -47,9 +47,9 @@ h1 {
 
 li a:not(#siteLink), #menuButtonLabel {
   text-decoration: none;
-  font: bold 0.9em "Roboto", sans-serif;
+  font: bold 0.9em sans-serif;
   text-transform: uppercase;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 #menuLogo {
@@ -87,7 +87,7 @@ ul, menu {
   padding: 0;
   margin: 0;
   display: inline-block;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 #menuBlock1, #menuBlock2 {
@@ -108,7 +108,7 @@ ul, menu {
 
 #banner p {
   color: white;
-  font: bold 6em "Roboto", sans-serif;
+  font: bold 6em sans-serif;
   text-transform: uppercase;
 }
 
@@ -148,21 +148,22 @@ div a[name] {
 #description1 {
   display: inline-block;
   width: 10em;
-  font: bold 1.2em "Roboto", sans-serif;
+  font: bold 1.2em sans-serif;
   margin: 0 2em 0 0em;
   vertical-align: top;
   text-align: left;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 #description2 {
   display: inline-block;
   width: 35em;
-  font: 1.1em "Roboto", sans-serif;
+  font: 1.1em sans-serif;
   opacity: 0.9;
+  /*font: 1.1em Arial;*/
   line-height: 1.3em;
   text-align: left;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 mark {
@@ -207,13 +208,14 @@ mark {
 }
 
 .video h2 {
-  font: bold 1.4em "Roboto", sans-serif;
+  font: bold 1.4em sans-serif;
   text-transform: uppercase;
   padding-left: 5.6em;
 }
 
 .video p {
-  font: 1em "Roboto", sans-serif;
+  /*font: 1em Arial;*/
+  font: 1em sans-serif;
   line-height: 1.3em;
 }
 
@@ -249,10 +251,10 @@ mark {
 }
 
 .services section p {
-  font: 1em "Roboto", sans-serif;
+  font: 1em sans-serif;
   line-height: 1.3em;
   text-align: justify;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 .services h1 {
@@ -263,11 +265,11 @@ mark {
 }
 
 .services h2 {
-  font: bold 1.4em "Roboto", sans-serif;
+  font: bold 1.4em sans-serif;
   line-height: 1.3em;
   text-transform: uppercase;
   text-align: center;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 .services img {
@@ -369,16 +371,17 @@ mark {
 }
 
 .process1 p {
-  font: 0.9em "Roboto", sans-serif;
+  /*font: 0.9em Arial;*/
+  font: 0.9em sans-serif;
   line-height: 1.3em;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 .process1 h2, .process2 h2 {
-  font: bold 1.2em "Roboto", sans-serif;
+  font: bold 1.2em sans-serif;
   line-height: 1.3em;
   text-transform: uppercase;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 #pickout {
@@ -387,10 +390,10 @@ mark {
   padding-left: 5em;
   margin-top: 0;
   margin-right: 0em;
-  font: bold 1.2em "Roboto", sans-serif;
+  font: bold 1.2em sans-serif;
   line-height: 1.3em;
   text-transform: uppercase;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 .process h1 {
@@ -413,9 +416,10 @@ mark {
 }
 
 .process2 p {
-  font: 0.9em "Roboto", sans-serif;
+  /*font: 0.9em Arial;*/
+  font: 0.9em sans-serif;
   line-height: 1.3em;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 .process {
@@ -467,15 +471,16 @@ div a[name=priceAName] {
 }
 
 .price p {
-  font: 1.04em "Roboto", sans-serif;
+  /*font: 1.04em Arial;*/
+  font: 1.04em sans-serif;
   line-height: 1.3em;
   text-align: left;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 .price h2 {
-  font: bold 1.2em "Roboto", sans-serif;
-  color: black;
+  font: bold 1.2em sans-serif;
+  color: rgba(0, 0, 0, 0.95);
   margin: 0;
   text-align: left;
 }
@@ -582,11 +587,12 @@ div a[name=ContactsAName] {
 }
 
 .contactText {
-  font: 1.1em "Roboto", sans-serif;
+  /*font: 1.1em Arial;*/
+  font: 1.1em sans-serif;
   line-height: 1.3em;
   text-align: center;
   margin-right: 4em;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 input, textarea {
@@ -594,8 +600,8 @@ input, textarea {
   width: 100%;
   margin: 0.8em 0 0.8em 0;
   padding-left: 1em;
-  font: italic 0.8em "Roboto", sans-serif;
-  color: black;
+  font: italic 0.8em sans-serif;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 input {
@@ -622,15 +628,15 @@ textarea {
 }
 
 .phone {
-  font: bold 1.55em "Roboto", sans-serif;
+  font: bold 1.55em sans-serif;
   margin: 1em 0 1em 0;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 #email {
-  font: bold 1.55em "Roboto", sans-serif;
+  font: bold 1.55em sans-serif;
   margin: 1em 0 0.2em 0;
-  color: black;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 [type=submit] {
@@ -644,7 +650,7 @@ textarea {
   top: 21.6em;
   background-color: rgba(0, 125, 6, 0.9);
   padding: 1.1em 3em 1.1em 3em;
-  font: 0.9em "Roboto", sans-serif;
+  font: 0.9em sans-serif;
   color: white;
   border-radius: 2em;
   transition: transform 0.9s;
@@ -657,6 +663,7 @@ textarea {
 }
 
 #button:active {
+  /* font: 0.88em Arial; */
   transform: scale(0.95);
 }
 
@@ -665,7 +672,7 @@ textarea {
   border-width: 6px 24.5px 13.5px 6.5px;
   border-image: url(images/arrowMessage.svg) 12 49 27 13 fill stretch;
   color: white;
-  font: 1.06em "Roboto", sans-serif;
+  font: 1.06em sans-serif;
   padding-left: 18px;
   margin: 0;
 }
@@ -674,7 +681,7 @@ textarea {
   position: absolute;
   bottom: 0.6em;
   right: -1em;
-  font: 0.9em "Roboto", sans-serif;
+  font: 0.9em sans-serif;
   width: 15em;
   color: navy;
   background-color: skyblue;
@@ -686,13 +693,13 @@ textarea {
 }
 
 text {
-  font: 0.15em "Roboto", sans-serif;
-  color: black;
+  font: 0.15em sans-serif;
+  color: rgba(0, 0, 0, 0.95);
 }
 
 footer {
-  font: 0.6em "Roboto", sans-serif;
-  background-color: black;
+  font: 0.6em sans-serif;
+  background-color: rgba(0, 0, 0, 0.95);
   color: grey;
   position: relative;
   text-align: center;
@@ -716,7 +723,7 @@ footer * {
 }
 
 #copyright {
-  font: 1.38em "Roboto", sans-serif;
+  font: 1.38em sans-serif;
   vertical-align: 3em;
   position: absolute;
   top: 2em;
@@ -763,7 +770,7 @@ footer * {
 }
 @media only all and (max-width: 60em) {
   li {
-    font: bold 0.9em "Roboto", sans-serif;
+    font: bold 0.9em sans-serif;
     padding-right: 3em;
   }
 
@@ -781,7 +788,7 @@ footer * {
   }
 
   li {
-    font: bold 0.8em "Roboto", sans-serif;
+    font: bold 0.8em sans-serif;
     padding-right: 2em;
   }
 
@@ -903,7 +910,7 @@ footer * {
   }
 
   #menuSelect0 + label p {
-    color: black;
+    color: rgba(0, 0, 0, 0.95);
   }
 
   #menuSelect0:checked ~ menu {
@@ -979,7 +986,7 @@ footer * {
   }
 
   #logoText {
-    font: bold 1.3em "Roboto", sans-serif;
+    font: bold 1.3em sans-serif;
     vertical-align: 0.47em;
   }
 
@@ -1114,7 +1121,7 @@ footer * {
   }
 
   .services h2 {
-    font: bold 1em "Roboto", sans-serif;
+    font: bold 1em sans-serif;
     padding-left: 7.6em;
   }
 
